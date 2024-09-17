@@ -16,3 +16,5 @@ export default class Palya {
     });
   }
 }
+
+//view- az aktuális állapotott megjeleníti, az akt állapotról az információkat a contollen KERESZTÜL kapja meg( modell-controller-view)

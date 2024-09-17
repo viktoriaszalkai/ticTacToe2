@@ -15,9 +15,9 @@ export default class TTTModell {
     }
   }
 
-  getAktElem() {
+ /*  getAktElem() {
     return this.#aktElem;
-  }
+  } */
   getList() {
     return this.#LISTA;
   }
@@ -27,3 +27,6 @@ export default class TTTModell {
     this.#setAktElem();
   }
 }
+
+//csak az adatokkkal foglalkozik, előállítja a priogram aktuális állapotát, előálítja a következő állapotot (x/o, ki következik, mi a kimenetel)
+//beírja az akt elmetz megnöveli egyel, majd beírja a következő elemet

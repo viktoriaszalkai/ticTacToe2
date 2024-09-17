@@ -1,14 +1,5 @@
-import TTTModell from "./modell/ticTacToeMOdell.js";
-import Palya from "./view/Palya.js";
+import TTTController from "./controller/TTTController.js";
 
+new TTTController()
 
-const taroloELEM = $(".jatekTer");
-
-const tttModell = new TTTModell();
-new Palya(tttModell.getList(), taroloELEM);
-
-$(window).on("katt", (event) => {
-  console.log(event.detail);
-  tttModell.lepteto(event.detail);
-  new Palya(tttModell.getList(), taroloELEM);
-});
+//program belépési pontja, példányosítja a kontrollert

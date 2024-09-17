@@ -24,3 +24,4 @@ export default class Mezo {
     })
   }
 }
+//tudja magáról az indexét, egy divet jelenít meg, saját eseményt tud generálni
