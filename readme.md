@@ -15,6 +15,6 @@
                -lepteto(index) - beírja az aktuális elemet, majd megnöveli egyel
 2.  View (Palya, Mezo) - a Mezo tudja magáról az indexét, egy divet jelenít meg(mezotKiir()), saját eseményt tud generálni(gombKattintas()).
                        - A Palya példányosítja a Mezo-t(palyaKiir())
-3.  Controller - az eseménykezelőben hívja meg a modell és a view megfelelő metódusait
+3.  Controller - feliratkozik a view eseménykezelőjére és meghívja a modell és a view megfelelő metódusait
                - lekéri az aktuális állapotát a listának, tud példányosítani
  
